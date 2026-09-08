@@ -12,8 +12,10 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   const projects = getProjects();
   const next = projects[(projects.findIndex((p) => p.slug === slug) + 1) % projects.length];
   return <article className="case-study">
-    <header className="case-header"><p className="eyebrow">{project.category} · {project.year}</p><h1>{project.title}</h1><p className="case-deck">{project.shortDescription}</p>
-      <dl><div><dt>Course</dt><dd>{project.course}</dd></div><div><dt>Duration</dt><dd>{project.duration}</dd></div><div><dt>With</dt><dd>{project.collaborators}</dd></div></dl>
+    <header className="case-header"><div className="case-kicker"><p className="eyebrow">{project.category} · {project.year}</p><span aria-hidden="true">Selected work / {project.slug.slice(-2)}</span></div><h1>{project.title}</h1>
+      <div className="case-details"><p className="case-deck">{project.shortDescription}</p>
+        <dl><div><dt>Course</dt><dd>{project.course}</dd></div><div><dt>Duration</dt><dd>{project.duration}</dd></div><div><dt>With</dt><dd>{project.collaborators}</dd></div></dl>
+      </div>
     </header>
     <div className="case-hero"><Image src={project.coverImage} alt={`${project.title} hero`} fill priority sizes="100vw"/></div>
     <section className="case-intro"><span>Overview</span><p>{project.longDescription}</p></section>
