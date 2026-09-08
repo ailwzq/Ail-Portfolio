@@ -1,0 +1,19 @@
+{
+  "slug": "project-04",
+  "title": "Project 04",
+  "year": "2024",
+  "category": "Systems",
+  "shortDescription": "Mapping movement and exchange through an evolving set of visual rules.",
+  "longDescription": "Project 04 turns complex relationships into a visual field. It asks how structure can clarify information while preserving surprise, ambiguity and human texture.",
+  "coverImage": "/projects/project-04/cover.svg",
+  "gallery": [
+    { "src": "/projects/project-04/process-01.svg", "caption": "Early rule-making experiments.", "size": "full" },
+    { "src": "/projects/project-04/process-02.svg", "caption": "Notation detail.", "size": "half" },
+    { "src": "/projects/project-04/final.svg", "caption": "Final system overview.", "size": "half" }
+  ],
+  "course": "Environments Studio",
+  "collaborators": "Independent project",
+  "duration": "5 weeks",
+  "featured": false,
+  "observation": "A useful system makes space for what it cannot predict."
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "project-02",
+  "title": "Project 02",
+  "year": "2025",
+  "category": "Graphics",
+  "shortDescription": "An identity system built from modular type, shifting scale and a single electric color.",
+  "longDescription": "Project 02 is a flexible visual language rather than a fixed mark. The system expands and contracts across printed matter, screens and space while preserving a recognizable voice.",
+  "coverImage": "/projects/project-02/cover.svg",
+  "gallery": [
+    { "src": "/projects/project-02/process-01.svg", "caption": "Typographic studies.", "size": "full" },
+    { "src": "/projects/project-02/process-02.svg", "caption": "The system in motion.", "size": "half" },
+    { "src": "/projects/project-02/final.svg", "caption": "Application study.", "size": "half" }
+  ],
+  "course": "Communication Design",
+  "collaborators": "Independent project",
+  "duration": "4 weeks",
+  "featured": true,
+  "observation": "An identity can be consistent without ever standing still."
+}

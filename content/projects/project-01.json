@@ -1,0 +1,19 @@
+{
+  "slug": "project-01",
+  "title": "Project 01",
+  "year": "2026",
+  "category": "Objects",
+  "shortDescription": "A study in balance, repetition and the quiet intelligence of everyday forms.",
+  "longDescription": "Project 01 considers how a familiar object can become newly legible through shifts in proportion, material and rhythm. This space is ready for your project story.",
+  "coverImage": "/projects/project-01/cover.svg",
+  "gallery": [
+    { "src": "/projects/project-01/process-01.svg", "caption": "Form studies and early material tests.", "size": "half" },
+    { "src": "/projects/project-01/process-02.svg", "caption": "Detail: surface, joinery and scale.", "size": "half" },
+    { "src": "/projects/project-01/final.svg", "caption": "Final composition in context.", "size": "full" }
+  ],
+  "course": "Studio I",
+  "collaborators": "Independent project",
+  "duration": "6 weeks",
+  "featured": true,
+  "observation": "Small changes in proportion can make an ordinary gesture feel entirely new."
+}
