@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
-
-const manrope = Manrope({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "Ailey Weng — Design",
@@ -11,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body className={manrope.variable}>
+  return <html lang="en"><body>
     <header className="site-header">
       <Link href="/" className="monogram" aria-label="Ailey Weng, home">AW</Link>
       <nav aria-label="Primary navigation">
