@@ -1,0 +1,19 @@
+{
+  "slug": "project-03",
+  "title": "Project 03",
+  "year": "2025",
+  "category": "Interactions",
+  "shortDescription": "A tactile digital environment for noticing patterns in overlooked daily rituals.",
+  "longDescription": "Project 03 explores interaction as a material. Layered sequences, pauses and small moments of feedback invite close attention without prescribing a single route.",
+  "coverImage": "/projects/project-03/cover.svg",
+  "gallery": [
+    { "src": "/projects/project-03/process-01.svg", "caption": "Sequence and interaction map.", "size": "half" },
+    { "src": "/projects/project-03/process-02.svg", "caption": "Interface detail.", "size": "half" },
+    { "src": "/projects/project-03/final.svg", "caption": "Prototype environment.", "size": "full" }
+  ],
+  "course": "Interaction Design",
+  "collaborators": "Independent project",
+  "duration": "8 weeks",
+  "featured": true,
+  "observation": "The interface becomes interesting when it leaves room for curiosity."
+}
